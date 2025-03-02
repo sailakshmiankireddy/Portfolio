@@ -1,0 +1,112 @@
+/* General Styles */
+:where([class^="ri-"])::before { content: "\f3c2"; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Montserrat', sans-serif; }
+
+/* Project Card Hover Effect */
+.project-card:hover { transform: scale(1.02); transition: all 0.3s ease; }
+
+/* Download Button */
+.download-button {
+    background-color: #007CFF;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+#home {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    color: black;
+}
+
+
+.download-button:hover {
+    background-color: #0066cc;
+}
+
+/* Skills Background Color */
+.skill-tag {
+    background-color: #F5F5F5;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+/* Input Box Styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007CFF;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 124, 255, 0.1);
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #1E293B;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer .social-icons i {
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 0.875rem;
+    opacity: 0.8;
+}
+
+/* Send Message Button */
+.send-message-button {
+    background-color: #007CFF;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.send-message-button:hover {
+    background-color: #0066cc;
+}

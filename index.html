@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Lakshmi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+</head>
+<body class="bg-white">
+    <header class="fixed w-full bg-white shadow-sm z-50">
+        <nav class="container mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-2xl font-bold text-primary">Sai Lakshmi</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="hover:text-primary transition-colors">Home</a>
+                <a href="#about" class="hover:text-primary transition-colors">About</a>
+                <a href="#projects" class="hover:text-primary transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-primary transition-colors">Contact</a>
+            </div>
+            <button class="md:hidden w-10 h-10 flex items-center justify-center">
+                <i class="ri-menu-line text-2xl"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="pt-20 min-h-screen flex items-center bg-gradient-to-r from-white to-secondary/10">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-5xl font-bold mb-6">Hi, I'm Sai Lakshmi</h1>
+                    <p class="text-2xl text-gray-600 mb-4">Aspiring Web Developer</p>
+                    <p class="text-lg text-gray-500 mb-8">
+                        Passionate about building responsive and dynamic websites.  
+                        Always eager to learn new technologies and create seamless user experiences.
+                    </p>
+                    <button class="download-button">
+                        <a href="https://drive.google.com/file/d/1dfjBBME1Qo8TArjLv35IY1bpZUTRox9Q/view?usp=drive_link" >
+                            <i class="ri-download-line"></i>
+                            <span>Download Resume</span>
+                        </a>                        
+                    </button>
+                </div>
+                
+                <div class="relative">
+                    <img src="profile.png" 
+                         alt="Sai Lakshmi" 
+                         class="rounded-full w-[400px] h-[400px] object-cover mx-auto shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">About Me</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">My Journey</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        I am a passionate web developer eager to create interactive, responsive, and user-friendly websites.  
+                        With a strong foundation in front-end and back-end technologies, I'm excited to bring ideas to life through code.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Skills</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://www.linkedin.com/in/sai-lakshmi-ankireddy-617071265/" class="w-12 h-12 flex items-center justify-center bg-secondary rounded-full hover:bg-primary  transition-colors">
+                            <i class="ri-linkedin-line text-xl"></i>
+                        </a>
+                        <a href="https://github.com/sailakshmiankireddy" class="w-12 h-12 flex items-center justify-center bg-secondary rounded-full hover:bg-primary  transition-colors">
+                            <i class="ri-github-line text-xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com/nishan_jyo2671?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="w-12 h-12 flex items-center justify-center bg-secondary rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-instagram-line text-xl"></i>
+                        </a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects" class="py-20 bg-secondary/30">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card">
+                    <img src="yancy-min-842ofHC6MaI-unsplash.jpg" 
+                         alt="FinTech Dashboard" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Fetch Git User</h3>
+                        <p class="text-gray-600 mb-4">A dynamic JavaScript-based project designed to enhance user interaction and functionality in web applications to get git users. </p>
+                        <a href="https://github.com/sailakshmiankireddy/jsproject" class="text-primary hover:text-primary/80 flex items-center">
+                            View Project
+                            <i class="ri-arrow-right-line ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card">
+                    <img src="https://public.readdy.ai/ai/img_res/e4c3e227d954b20cc8289da72ef40d5e.jpg" 
+                         alt="Project 2" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">E-commerce Platform</h3>
+                        <p class="text-gray-600 mb-4">A modern e-commerce platform with seamless checkout experience and intuitive navigation.</p>
+                        <a href="https://github.com/sailakshmiankireddy/cssassigment/blob/main/index.html" class="text-primary hover:text-primary/80 flex items-center">
+                            View Project
+                            <i class="ri-arrow-right-line ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card">
+                    <img src="https://public.readdy.ai/ai/img_res/b95772ba5eaef44b58cb57ed61849d26.jpg" 
+                         alt="Project 3" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Fitness App</h3>
+                        <p class="text-gray-600 mb-4">A health and fitness tracking application with personalized workout plans and progress monitoring.</p>
+                        <a href="#" class="text-primary hover:text-primary/80 flex items-center">
+                            View Project
+                            <i class="ri-arrow-right-line ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Get in Touch</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <form id="contactForm" class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                            <input type="text" class="w-full px-4 py-3 rounded border-gray-300 focus:border-primary focus:ring-primary" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea rows="4" class="w-full px-4 py-3 rounded border-gray-300 focus:border-primary focus:ring-primary" required></textarea>
+                        </div>
+                        <button type="submit" class="send-message-button">Send Message</button>
+                    </form>
+                </div>
+                <div>
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-semibold mb-4">Contact Information</h3>
+                        <div class="space-y-4">
+                            <p class="flex items-center">
+                                <i class="ri-mail-line mr-3 text-primary"></i>
+                                ankireddysailakshmi@gmail.com
+                            </p>
+                            <p class="flex items-center">
+                                <i class="ri-phone-line mr-3 text-primary"></i>
+                                +91 91214 80595
+                            </p>
+                            <p class="flex items-center">
+                                <i class="ri-map-pin-line mr-3 text-primary"></i>
+                                13/67,Gandhi Nagar, Tirupati, Andhara Pradesh
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="h-64 rounded-lg overflow-hidden">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093744!2d144.95373531531658!3d-37.817209979751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xb3a3b8f1ad68a38e!2sYour%20Location!5e0!3m2!1sen!2sus!4v1614631234567!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col items-center">
+                <div class="flex space-x-6 mb-8">
+                    <a href="https://www.linkedin.com/in/sai-lakshmi-ankireddy-617071265/" class="hover:opacity-80 transition-opacity">
+                        <i class="ri-linkedin-fill text-2xl"></i>
+                    </a>
+                    <a href="https://github.com/sailakshmiankireddy" class="hover:opacity-80 transition-opacity">
+                        <i class="ri-github-line text-xl"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nishan_jyo2671?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="hover:opacity-80 transition-opacity">
+                        <i class="ri-instagram-line text-xl"></i>
+                    </a>
+
+                </div>
+                <p class="text-center text-sm opacity-80">© 2025 Sai Lakshmi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
